@@ -1,0 +1,26 @@
+.images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 200px;
+  height: 300px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.travelblog {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
